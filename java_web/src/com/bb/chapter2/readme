@@ -1,0 +1,10 @@
+1. NIO的数据访问方式
+
+(1) FileChannel.transferXXXX ,
+
+参考： https://www.ibm.com/developerworks/apps/download/index.jsp?contentid=340473&filename=j-zerocopy.zip&method=http&locale=zh_CN
+
+(2) FileChannel.map
+适合对大文件的只读性操作，如大文件的MD5校验
+
+
